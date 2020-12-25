@@ -1,0 +1,15 @@
+length : meter
+mass : kilogram
+time : second
+electric current : ampere
+thermodynamic temperature : kelvin
+amount of substance : mole
+luminous intensity : candela
+
+Electric current is a base unit, so a base phenomenon.
+
+I am concernced with joule, 1 kilogram moving 1 meter at 
+1 meter per second squared, and watt, joule over second.
+
+
+

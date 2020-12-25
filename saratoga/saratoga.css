@@ -1,0 +1,112 @@
+body	{	background-color: #ab92fb;
+			background-image: url("gradientblue.jpg");
+			color: #d5e3ff;
+			font-family: Arial, sans-serif;}
+header	{	background-color: #0f0f66;
+			color: #cFaFbF;
+			background-position: center;
+			background-repeat: no-repeat;}
+h1		{	text-align: center;
+			font-size: 3em;
+			padding: 10px;
+			line-height: 150%;
+			text-shadow: #3C1CC2;}
+nav		{	font-weight: bold;			
+			float: left;
+			width: 150px;}
+nav ul  {	list-style-type: none;}
+nav a   {	text-decoration: none;}
+nav a:link { color: #3262A3;}
+.category {	font-weight: bold;
+			background-color: #FFFFFF;
+			color: #003366;
+			font-size: 1.1em;
+			text-shadow: 1px 1px 1px #666;}
+footer {	font-size: .70em;
+			font-style: italic;
+			padding: 10px;
+			margin-left: 180px;}
+footer nav {text-align: left;}
+img {		border: none;}
+#wrapper {	width: 80%;
+			min-width: 700px;
+			max-width: 1024px;
+			margin-right: auto;
+			margin-left: auto;
+			background-color: #F4F5FF;
+			color: #000066;}
+main	{	margin-left: 180px;
+			padding-right: 20px;
+			padding-bottom: 20px;
+			overflow: hidden;}
+
+			
+table {	border: solid 2px #00000FF;
+		border-collapse: collapse;}
+		
+table td, th { 	padding: 0.5em;
+				border: solid 1px #0000FF;}
+header, nav, main, footer { display: block;}
+
+#mobile	{	display: none;}
+#desktop{	display: inline;}
+
+label	{	float: left;
+			text-align: right;
+			width: 8em;
+			padding-right: 10px;}
+input	{	display: block;
+			margin-bottom: 1em;	}
+textarea{	display: block;
+			margin: 1em;}
+#mySubmit{	margin-left: 10em;}
+
+@media only screen and (max-width: 1024px) {
+	body	{	margin: 0;
+				padding: 0;
+				background-color: #FFFFFF;
+				background-image: none;}
+	#wrapper{	width: auto;
+				min-width: 0;
+				margin: 0;}
+	h1		{	margin: 0;
+				text-align: center;
+				font-size: 2em;
+				line-height: 200%;}
+	nav		{	float: none;
+				width: none;}
+	nav li 	{	display: inline-block;}
+	nav a 	{	padding: 1em;
+				border-style: none;
+				font-size: 1.2em;}
+	nav ul	{	text-align: center;
+				padding: 0;
+				margin: 0;}
+	main	{	margin: 0;
+				padding-top: 0;
+				padding-bottom: 0;
+				padding-left: 1em;
+				padding-right: 1em;
+				font-size: 90%;}
+	dd		{	margin-bottom: 1em;}
+	footer 	{ 	margin: 0;}
+}
+
+@media only screen and (max-width: 768px) {
+	header	{	background-image: url("lilfish.gif");
+				background-position: center;
+				background-repeat: no-repeat;}
+	h1		{	font-size: 1.5em;
+				line-height: 120%;}
+	nav a	{	display: block;
+				padding: 0.2em;
+				font-size: 1.3em;
+				border-bottom: 1px #330000;}
+	nav li 	{	display: block;}
+	nav ul	{	text-align: left;}
+	main	{	padding-left: 0.4em;}
+	.category{	text-shadow: none;}
+	footer	{	padding: 0;}
+	#mobile	{	display: in-line;}
+	#desktop{	display: none;}
+}

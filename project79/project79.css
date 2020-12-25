@@ -1,0 +1,36 @@
+nav {
+	text-align: center;
+}
+footer{
+	text-align: center;
+}
+
+body {
+	 background-color: white;
+	 
+ }
+h1 {
+    color: blue;
+    text-align: center;
+}
+p {
+	font-family: verdana;
+    font-size:15px;
+	color: red;
+}
+
+.passage{
+	background-color: lightgrey;
+    width: 80%;
+	border: 1em solid green;
+    margin: 5%;
+	padding: 5%;
+}
+
+.wrapper{
+	background-color: white;
+	width: 100%;
+	border: 5px solid black;
+	margin: 1%;
+	padding: 1%;
+}

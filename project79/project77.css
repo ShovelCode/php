@@ -1,0 +1,33 @@
+nav {
+	text-align: center;
+}
+footer{
+	text-align: center;
+}
+
+body {
+	 background-color: white;
+	 
+ }
+h1 {
+    color: blue;
+    text-align: center;
+}
+p {
+	font-family: verdana;
+    font-size:15px;
+	color: red;
+}
+
+img {
+	width: 200px;
+	height: 200px;
+	padding: 1em;
+}
+.passage{
+	background-color: lightgrey;
+    width: 80%;
+    border: 1em solid green;
+    margin: 5%;
+	padding: 5%;
+}

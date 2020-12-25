@@ -1,0 +1,57 @@
+<html>
+<head>
+<title>UTPB Science Fair Contestant Entry</title>
+</head>
+
+<body>
+<div align="center">
+<nav><a href="index.html">Home</a> <a href="index.html">Other</a>
+ <a href="phptest.php">Server PHP Information</a>
+ <a href="phpconsole.php">Test 2</a>
+ <a href="saygreeter.html">Test 3</a>
+ <a href="argumentcatch.html">Test4</a>
+ <a href="checkLogin2.html">Administration</a>
+  
+</nav>
+<h1>New Contestant Entry</h1>
+
+<form action="insert_contestant.php" method="post" id="form1">
+student name<br>
+<input type="text" name="studentname" maxlength="13" size="13"></td><br>
+school<br>
+<input type="text" name="school" maxlength="30" size="30"><br>
+grade<br>
+<select name="grade" form="form1">
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+</select><br>
+category<br>
+<select name="category" form="form1">
+	   <option value="Life Science">Life Science</option>
+       <option value="Chemistry">Chemistry</option>
+	   <option value="Physics/Astronomy">Physics/Astronomy</option>
+	   <option value="Earth Science">Earth Science</option>
+	   <option value="Engineering">Engineering</option>
+	   <option value="Behavioral/Social Science">Behavioral/Social Science</option>
+	   </select><br>
+teacher name<br>
+<input type="text" name="teachername"><br>
+project title<br>
+<input type="text" name="projecttitle" maxlength="50" size="30" form="form1"><br>
+<div>Please enter descriptions below before registering!</div>
+<input type="submit" value="Register" form="form1"><br>
+</form>
+ Describe your experiment (what were you trying to do, show, find out, or build):<br>
+<textarea name="experimentdescription" form="form1" rows="7" cols="50">Enter text here...</textarea>
+<br>
+Describe how you will do it (procedure and materials):<br>
+<textarea name="experimentprocedure" form="form1" rows="7" cols="50">Enter text here...</textarea>
+<br>
+What risks are involved with your experiment and what safety measures will you take:<br>
+<textarea name="experimentsafety" form="form1" rows="7" cols="50">Enter text here</textarea><br>
+
+</div>
+</body>
+</html>
